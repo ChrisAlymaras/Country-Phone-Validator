@@ -1,0 +1,77 @@
+body, h1, input, button, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:white;
+}
+
+body {
+  background-color: #e2f9f5;
+}
+
+/*Phone screen container*/
+.phone-screen {
+  width: 360px;
+  height: 640px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 10px solid #012a4a;
+  border-radius: 30px;
+  background-color: #cce3de; 
+  font-family: "Gill Sans", "Segoe UI", sans-serif;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color:#012a4a;
+}
+
+#user-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 5px solid #012a4a;
+  background-color: #edf2fb;
+  color:black;
+}
+
+button {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0f4c5c;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #edf2fb;
+  color:#0f4c5c;
+}
+
+/*Results box*/
+#results-div {
+  margin-top: 20px;
+  width: 80%;
+  min-height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #edf2fb;
+  border: 5px solid #012a4a;
+  text-align: center;
+  color:black;
+}
